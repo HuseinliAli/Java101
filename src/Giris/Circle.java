@@ -13,5 +13,21 @@ public class Circle {
         int alphaDegree = inp.nextInt();
         double areaOfDegree = (Math.PI * r * r * alphaDegree) /360;
         System.out.println(areaOfDegree);
+
+    //Shopping
+        double peach = 2.14;
+        double apple = 3.67;
+        double tomato = 1.11;
+        double banana = 0.95;
+        double pomegranate = 5.00;
+
+        int peachCount = inp.nextInt();
+        int appleCount = inp.nextInt();
+        int tomatoCount = inp.nextInt();
+        int bananaCount = inp.nextInt();
+        int pomegranateCount = inp.nextInt();
+
+        double price = peach*peachCount + apple*appleCount+ tomato*tomatoCount+ banana*bananaCount+ pomegranate*pomegranateCount;
+        System.out.println(price);
     }
 }
