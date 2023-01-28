@@ -7,10 +7,10 @@ public class Sum {
         do {
             System.out.println("EdedDaxilEdin: ");
             number = input.nextInt();
-            if(number % 2 == 1){
+            if(number % 4 == 0){
                 sum += number;
             }
-        } while (number>0);
+        } while (number%2 !=1);
         System.out.print(sum);
     }
 }
