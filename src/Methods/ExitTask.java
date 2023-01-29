@@ -1,6 +1,7 @@
 package Methods;
 
 public class ExitTask {
+
     public static void main(String[] args) {
         int a = 16;
         int temp =a;
