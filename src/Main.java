@@ -15,11 +15,14 @@ public class Main {
         st.addBulkExamNote(0, 33,78);
         double avg = st.avgCalc();
         st.printNote();
-        st.isPassed();*/
+        st.isPassed();
         Employee emp = new Employee("ali", "huseynli", 2000, 45, 1987);
         emp.bonus();
         emp.raiseSalary();
         emp.tax();
-        emp.printEmployee(emp);
+        emp.printEmployee(emp);*/
+
+        double[] nummbers = {123,32423,345};
+        System.out.println(nummbers.length+","+nummbers[1]);
     }
 }
